@@ -1,6 +1,6 @@
 [project]
 name = "rutscout"
-version = "1.0.0"
+version = "1.0.1"
 description = "Automatically evaluate Teltonika router SIMs, run speedtests per SIM, and select the fastest SIM as primary."
 readme = "README.md"
 authors = [
