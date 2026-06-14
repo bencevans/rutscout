@@ -16,7 +16,7 @@ classifiers = [
     "Topic :: System :: Networking",
 ]
 dependencies = [
-    "ponika>=0.5.0",
+    "ponika>=0.5.1",
     "rich>=15.0.0",
     "speedtest-cli>=2.1.3",
 ]

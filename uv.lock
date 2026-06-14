@@ -109,15 +109,15 @@ wheels = [
 
 [[package]]
 name = "ponika"
-version = "0.5.0"
+version = "0.5.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "pydantic" },
     { name = "requests" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/6b/f7/a363a44aff90175543dddd1491e739cc14c1a7da26071d53911bbe073553/ponika-0.5.0.tar.gz", hash = "sha256:dbd23dd71a65aa003c957132cfc4d886687b8c18c0383888167f9ed74ceb54af", size = 18126, upload-time = "2026-06-11T12:06:31.308Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/74/16/0cc662b7583cfb75a8dce0523a6036a6d1094d5564b338d17a1021786dd3/ponika-0.5.1.tar.gz", hash = "sha256:e43a9913fb5824fd6cd3b98beee9b1487548d95fa4733a93334b9ed3a362f1fe", size = 18668, upload-time = "2026-06-14T19:09:29.736Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ed/12/ed91beceb3a87c4a32da13253124de128b2a9cb84a12ed9abd5d4f14df6c/ponika-0.5.0-py3-none-any.whl", hash = "sha256:a7b4b2c63dc8c609b5e003646dc7f9d3b3a663f1a724041d35830f328bc75dd1", size = 14950, upload-time = "2026-06-11T12:06:30.258Z" },
+    { url = "https://files.pythonhosted.org/packages/82/4e/3f881de014f5d293dfdf4b72f5df2fe6e2215062cf6c4ed22e468eef7b6d/ponika-0.5.1-py3-none-any.whl", hash = "sha256:ba4719446a150ccc1cf55a1e609f31a9882d5af13619ca96f6b5e27628221597", size = 15864, upload-time = "2026-06-14T19:09:31.099Z" },
 ]
 
 [[package]]
@@ -230,7 +230,7 @@ wheels = [
 
 [[package]]
 name = "rutscout"
-version = "0.1.0"
+version = "1.0.0"
 source = { editable = "." }
 dependencies = [
     { name = "ponika" },
@@ -240,7 +240,7 @@ dependencies = [
 
 [package.metadata]
 requires-dist = [
-    { name = "ponika", specifier = ">=0.5.0" },
+    { name = "ponika", specifier = ">=0.5.1" },
     { name = "rich", specifier = ">=15.0.0" },
     { name = "speedtest-cli", specifier = ">=2.1.3" },
 ]
